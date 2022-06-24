@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Vladyslav-Kruchok/goit-react-hw-03-phonebook/static/css/main.7acaea2f.css",
+    "main.js": "/Vladyslav-Kruchok/goit-react-hw-03-phonebook/static/js/main.effbffdf.js",
+    "index.html": "/Vladyslav-Kruchok/goit-react-hw-03-phonebook/index.html",
+    "main.7acaea2f.css.map": "/Vladyslav-Kruchok/goit-react-hw-03-phonebook/static/css/main.7acaea2f.css.map",
+    "main.effbffdf.js.map": "/Vladyslav-Kruchok/goit-react-hw-03-phonebook/static/js/main.effbffdf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.effbffdf.js"
+  ]
+}
