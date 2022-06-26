@@ -2,19 +2,8 @@ import PropsType from "prop-types";
 import React from "react";
 import { ListItem } from "../ListItem";
 
-export class ContactList extends React.Component { 
-    static protoType = {
-    contacts: PropsType.arrayOf(PropsType.shape({
-            id: PropsType.string.isRequired,
-            name: PropsType.string.isRequired,
-            number: PropsType.string.isRequired
-        }
-    )),
-    onClick: PropsType.func.isRequired
-    };
-    
-    render() { 
-        const { contacts, onClick } = this.props;
+export const ContactList = (props) => { 
+        const { contacts, onClick } = props;
         return (
             <ul>
                 {
@@ -24,5 +13,14 @@ export class ContactList extends React.Component {
                 }
             </ul>
         );
-    };
 };
+
+ContactList.protoType = {
+    contacts: PropsType.arrayOf(PropsType.shape({
+            id: PropsType.string.isRequired,
+            name: PropsType.string.isRequired,
+            number: PropsType.string.isRequired
+        }
+    )),
+    onClick: PropsType.func.isRequired
+    };
